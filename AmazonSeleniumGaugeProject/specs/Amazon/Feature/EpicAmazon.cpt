@@ -1,0 +1,17 @@
+Created by testinium on 1.02.2023
+
+This is a concept file with following syntax for each concept.
+# Amazon - Gelen URL ile istenen URL eşitliği kontrol edilir
+* "https://www.amazon.com.tr/" gelen url ile aynı mı
+* "sp-cc-rejectall-link" - "id" elementine tıklanır
+
+# Amazon - Arama çubuğundan 'Macbook Pro' değeri aratılır
+* "twotabsearchtextbox" - "id" elementinin görünür olması kontrol edilir
+* "twotabsearchtextbox" - "id" elementine "Macbook Pro" değerini yaz
+* "nav-search-submit-button" - "id" elementine tıklanır
+
+# Amazon - Sonuçlar sayfasında çıkan ilk sonuca tıklanır
+* "div[class='a-section aok-relative s-image-square-aspect'] img" - "cssSelector" elementine tıklanır
+
+# Amazon - 'Ürünün Fiyatı', 'Model Adı', ve 'CPU Modeli' bilgileri bir dosyaya yazdırılır
+* "amazon.txt" dosyasına 'ürün fiyat', 'model adı', 'CPU' bilgilerini yaz
